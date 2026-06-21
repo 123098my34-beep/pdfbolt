@@ -4,7 +4,7 @@ import { useState, useRef, useEffect } from "react";
 import {
   Zap, Shield, Merge, Scissors, RotateCw, Lock, FileImage,
   FileText, ChevronDown, ArrowRight, Upload, Sparkles, Globe,
-  Hash, Settings, Copy, Clock, Eye, download
+  Hash, Settings, Copy, Clock, Eye, Download
 } from "lucide-react";
 
 const tools = [

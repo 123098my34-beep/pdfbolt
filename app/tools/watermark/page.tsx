@@ -21,7 +21,7 @@ export default function WatermarkPage() {
     setMessage("Adding watermark...");
 
     try {
-      const result = await addWatermark(file, text, opacity, fontSize);
+      const result = await addWatermark(file, text, { opacity, fontSize });
       downloadBlob(result, `watermarked_${file.name}`);
       setState("done");
       setMessage("Watermark added!");
